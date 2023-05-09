@@ -1,20 +1,23 @@
+import React from 'react';
 import { ImageBackground } from "react-native";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled1 = () => {
   return <SafeAreaView style={styles.safeArea}>
-        <ScrollView contentContainerStyle={{
-      backgroundColor: '#f0f0f1',
+      <ScrollView contentContainerStyle={{
+      backgroundColor: "#f0f0f1",
       padding: 10,
-      position: 'relative',
+      position: "relative",
       flex: 1
-    }}><ImageBackground style={styles.TTnWXpjo} source={require("./alexion-logo.jpeg")} resizeMode="cover"></ImageBackground></ScrollView>
+    }}>
+        <ImageBackground style={styles.TTnWXpjo} source={require("./alexion-logo.jpeg")} resizeMode="cover"></ImageBackground>
+      </ScrollView>
     </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
-    height: '100%'
+    height: "100%"
   },
   TTnWXpjo: {
     width: 342,

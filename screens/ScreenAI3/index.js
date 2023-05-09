@@ -1,3 +1,4 @@
+import React from 'react';
 import { StyleSheet } from "react-native";
 import { View } from "react-native";
 import { Icon, Text, Button } from "react-native-elements";
@@ -8,7 +9,9 @@ const PatientListScreen = () => {
       <Text h4 style={_styles.scpyTJLg}>
         Patient List from iPatient
       </Text>
-      <Text h5 style={_styles.FEkpmtlW}>{"Connect your iPatient information to the Salesforce Marketing Cloud"}</Text>
+      <Text h5 style={_styles.FEkpmtlW}>
+        {"Connect your iPatient information to the Salesforce Marketing Cloud"}
+      </Text>
       <Button title="View List" containerStyle={{
       marginTop: 20
     }} />
